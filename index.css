@@ -1,0 +1,400 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.main-page
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url('burger_3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .row
+{
+    background-color: #000;
+    height: 70px;
+}
+header .icons
+{
+    background-color: #000;
+    width: 100%;
+}
+header .icons a
+{
+    color: #fff;
+    padding: 15px;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+}
+header .icons a i
+{
+    font-size: 20px;
+    padding-top: 25px;
+}
+header .icons a i:hover
+{
+    color: red;
+}
+
+header .personal-info
+{
+    margin-top: -20px;
+}
+header h4
+{
+    color: #fff;
+    float: right;
+    padding-right: 70px;
+    margin-right: 60px;
+}
+
+
+header .nav
+{
+    float: right;
+    padding: 10px;
+    background-color: rgb(95, 41, 41);
+    border-bottom-left-radius: 30px;
+}
+header .nav ul li
+{
+    list-style: none;
+    display: inline-block;
+   
+}
+header .nav ul li a
+{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 20px;
+    font-weight: 700;
+    color: #fff;
+    display: block;
+    transition: all 0.5s ease;
+}
+header .container img
+{
+    width: 40px;
+    height: 55px;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+header .container span
+{
+    position: absolute;
+    color: #008000;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.home
+{
+    padding: 10px;
+}
+.home .main-heading
+{
+    text-align: center;
+    padding-top: 70px;
+    margin-top: 80px;
+}
+.home .main-heading h3
+{
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 40px;
+    font-style: italic;
+}
+.home .main-heading h1
+{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.buttons
+{
+    text-align: center;
+    padding: 40px;
+}
+.buttons a
+{
+    border: 1px solid #fff;
+    padding: 12px 30px;
+    margin: 20px;
+    outline: none;
+    color: #fff;
+    letter-spacing: 5px;
+    background-color: green;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
+
+
+
+
+
+/*-----mid--page-----*/
+
+section
+{
+    position: relative;
+    padding: 100px;
+}  
+.cover
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+}
+.title
+{
+    width: 100%;
+    display: flex;
+   /* justify-content: center;
+    text-align: left;
+    flex-direction: column;*/
+}
+.title h2
+{
+    position: relative;
+    font-weight: 700;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 20px;
+    color: green;
+}
+.about .icons
+{
+    padding-left: 40px;
+}
+.about .icons i
+{
+    padding-left: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.about .content p
+{
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+    padding-left: 40px;
+}
+.about .middle
+{
+    width: 98%;
+    height: 550px;
+    border: 1px solid green;
+}
+
+.about .contentBx
+{
+    position: relative;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+.about .contentBx .content
+{
+    position: relative;
+}
+.about .contentBx .content .imgBx
+{
+    min-height: 400px;
+    position: relative;
+    bottom: 80px;
+    left: 50px;
+}
+.about .contentBx .content .imgBx img
+{
+    width:600px;
+    position: absolute;
+    height: 450px;
+}
+.about .middle .buttons
+{
+    margin-right: 60%;
+    margin-top: -10%;
+}
+
+
+
+
+/*-----newslatter-----*/
+
+/*.news 
+{
+    background-color: green;
+    height: 10px;
+}
+/*.news .content
+{
+    width: 100%;
+    height: 20px;
+    background-color: hotpink;
+}
+.news .title
+{
+    text-align: left;
+}
+/*.news .title h3
+{
+    font-size: 35px;
+    color: #fff;
+    padding-left: 30px;
+}
+/*.news .row
+{
+    margin: 0;
+    padding: 0;
+}
+.news .row ul
+{
+    list-style-type: none;
+    float: right;
+    text-align: center;    
+}
+.news .row ul li
+{
+    display: inline-block;
+    color: #fff;
+    margin-left: 30px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+*/
+
+.news
+{
+    background-color: green;
+    padding: 5px;
+    height: 80px;
+}
+.news .content
+{
+    padding-top: 10px;
+}
+.news .title 
+{
+    text-align: left;
+}
+.news .title h3
+{
+    font-size: 30px;
+    color: #fff;
+    padding-left: 30px;
+}
+.news .row
+{
+    margin: 0;
+    padding: 0;
+}
+.news .row ul
+{
+    list-style-type: none;
+    text-align: center;
+    display: block;
+}
+.news .row ul li 
+{
+    display: inline-block;
+    color: #fff;
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+
+
+
+/*-------footer------*/
+
+.footer
+{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 300px;
+}
+.footer .row
+{
+    flex-direction: column;
+    padding-top: 40px;
+}
+.footer .row .col-3
+{
+    float: left;
+    padding-left: 100px;
+}
+.footer .title h1
+{
+    color: #008000;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+}
+.footer h3
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+    padding-left: 60px;
+}
+.footer p
+{
+    color: #fff;
+    padding-left: 40px;
+    letter-spacing: 2px;
+}
+.footer input
+{
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    border: 1px solid #fff;
+    padding-left: 10px;
+    margin-left: 50px;
+    height: 40px;
+    width: 320px;
+}
+
+
+
+
+
+/*----down--page----*/
+
+.last
+{
+    width: 90%;
+    height: 90px;
+    margin: 0;
+    padding: 0;
+}
+.last p
+{
+    text-align: center;
+    padding: 30px;
+    font-weight: 600;
+}
+.last span
+{
+    color: green;
+}
